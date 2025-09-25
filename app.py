@@ -9,6 +9,11 @@ import plotly.io as pio
 st.set_page_config(layout="wide", page_title="PE Fund Analytics")
 
 st.title("Private Equity Fund Analytics")
+st.text("Analyze fund-level metrics and visualize the J-curve effect.")
+st.text("Upload deals via CSV or add them manually.")
+st.text("Explore sensitivity of fund returns to exit multiples and leverage.")
+st.text("Please note this is a demo application.")
+st.text("CSV upload format: Company,Industry,Entry_Year,Exit_Year,Entry_EBITDA,Entry_EBITDA_Multiple,Revenue_Growth_Rate,EBITDA_Margin,Capex_Percent,WC_Percent,Debt_to_EBITDA,Interest_Rate,Exit_EBITDA_Multiple,Equity_Contribution")
 
 # --- Initialize fund in session_state ---
 if "fund" not in st.session_state:
