@@ -1,6 +1,7 @@
 # PE Fund Analytics Dashboard
 
 if you wish to deploy this yourself, be my guest, I find streamlit very easy to develop in, and deploying is two clicks once you clone the repository to your own github. have fun!
+My deployment is located at pedashboardapp.streamlit.app - make sure to download the sample csv or create your own following the syntax below!
 
 ## Overview
 
