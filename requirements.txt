@@ -8,6 +8,3 @@ xlsxwriter
 scipy
 matplotlib
 kaleido
-Tempfile
-Zipfile
-numpy_financial
