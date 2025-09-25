@@ -30,9 +30,9 @@ It is designed for single-person use but includes many features common in indust
   - Exit multiple
   - Equity contribution
 - **CSV Upload:** Upload multiple deals at once with required columns:
-  - ^^^
+```
 Company,Industry,Entry_Year,Exit_Year,Entry_EBITDA,Entry_EBITDA_Multiple,Revenue_Growth_Rate,EBITDA_Margin,Capex_Percent,WC_Percent,Debt_to_EBITDA,Interest_Rate,Exit_EBITDA_Multiple,Equity_Contribution
-^^^
+```
 
 ### 3. Deal-Level Metrics
 - Calculates **Entry Equity**, **Exit Equity**, **MOIC**, and **IRR** per deal.
@@ -67,29 +67,29 @@ Company,Industry,Entry_Year,Exit_Year,Entry_EBITDA,Entry_EBITDA_Multiple,Revenue
 
 1. Clone the repository:
 
-^^^
+```
 git clone <repo_url>
-^^^
+```
 
 2. Create a virtual environment:
 
-^^^
+```
 python3 -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 .venv\Scripts\activate     # Windows
-^^^
+```
 
 3. Install dependencies:
 
-^^^
+```
 pip install -r requirements.txt
-^^^
+```
 
 4. Run the dashboard:
 
-^^^
+```
 streamlit run app.py
-^^^
+```
 
 ---
 
