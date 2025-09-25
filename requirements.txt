@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+numpy_financial
+plotly
+openpyxl
+xlsxwriter
+scipy
+matplotlib
+kaleido
+Tempfile
+Zipfile
+numpy_financial
